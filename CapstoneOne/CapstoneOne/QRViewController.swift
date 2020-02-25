@@ -101,6 +101,7 @@ class QRViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate
     
     func found(code: String) {
         print(code)
+        QRLabel.text = code
     }
     
     override var prefersStatusBarHidden: Bool {
