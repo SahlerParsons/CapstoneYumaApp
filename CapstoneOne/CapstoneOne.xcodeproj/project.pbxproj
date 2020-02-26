@@ -19,6 +19,17 @@
 		622196B224008A7B0039DF9D /* SemesterPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622196B124008A7B0039DF9D /* SemesterPlanViewController.swift */; };
 		622196B424008ADF0039DF9D /* LinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622196B324008ADF0039DF9D /* LinksViewController.swift */; };
 		62ACA9FD24059A7700379714 /* IndividualSemesterPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62ACA9FC24059A7700379714 /* IndividualSemesterPlanViewController.swift */; };
+		62DA1B982406C186004DE5DB /* Computer Science.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 62DA1B972406C186004DE5DB /* Computer Science.pdf */; };
+		62DA1B9E2406C198004DE5DB /* Engineering Management.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 62DA1B9D2406C198004DE5DB /* Engineering Management.pdf */; };
+		62DA1BA22406C1A3004DE5DB /* Food Safety.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 62DA1BA12406C1A3004DE5DB /* Food Safety.pdf */; };
+		62DA1BA42406C1AA004DE5DB /* Industrial Engineering.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 62DA1BA32406C1AA004DE5DB /* Industrial Engineering.pdf */; };
+		62DA1BA62406C1B2004DE5DB /* Informatics.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 62DA1BA52406C1B2004DE5DB /* Informatics.pdf */; };
+		62DA1BA82406C1B8004DE5DB /* Network Operations.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 62DA1BA72406C1B8004DE5DB /* Network Operations.pdf */; };
+		62DA1BAA2406C1C0004DE5DB /* Reverse Engineering.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 62DA1BA92406C1C0004DE5DB /* Reverse Engineering.pdf */; };
+		62DA1BAC2406C343004DE5DB /* Cyber Defense and Forensics.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 62DA1BAB2406C343004DE5DB /* Cyber Defense and Forensics.pdf */; };
+		62DA1BAE2406C395004DE5DB /* Agricultural Technology Management.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 62DA1BAD2406C395004DE5DB /* Agricultural Technology Management.pdf */; };
+		62DA1BB02406C45C004DE5DB /* Cyber Threat Intelligence.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 62DA1BAF2406C45B004DE5DB /* Cyber Threat Intelligence.pdf */; };
+		62DA1BB22406C4B4004DE5DB /* Family Studies & Human Development.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 62DA1BB12406C4B4004DE5DB /* Family Studies & Human Development.pdf */; };
 		62E22FE12401C15300E07244 /* ScolarshipPDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E22FE02401C15300E07244 /* ScolarshipPDFViewController.swift */; };
 		62E22FE32401C62C00E07244 /* scholarships.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 62E22FE22401C62C00E07244 /* scholarships.pdf */; };
 /* End PBXBuildFile section */
@@ -50,6 +61,17 @@
 		622196B124008A7B0039DF9D /* SemesterPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemesterPlanViewController.swift; sourceTree = "<group>"; };
 		622196B324008ADF0039DF9D /* LinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksViewController.swift; sourceTree = "<group>"; };
 		62ACA9FC24059A7700379714 /* IndividualSemesterPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualSemesterPlanViewController.swift; sourceTree = "<group>"; };
+		62DA1B972406C186004DE5DB /* Computer Science.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Computer Science.pdf"; sourceTree = "<group>"; };
+		62DA1B9D2406C198004DE5DB /* Engineering Management.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Engineering Management.pdf"; sourceTree = "<group>"; };
+		62DA1BA12406C1A3004DE5DB /* Food Safety.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Food Safety.pdf"; sourceTree = "<group>"; };
+		62DA1BA32406C1AA004DE5DB /* Industrial Engineering.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Industrial Engineering.pdf"; sourceTree = "<group>"; };
+		62DA1BA52406C1B2004DE5DB /* Informatics.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Informatics.pdf; sourceTree = "<group>"; };
+		62DA1BA72406C1B8004DE5DB /* Network Operations.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Network Operations.pdf"; sourceTree = "<group>"; };
+		62DA1BA92406C1C0004DE5DB /* Reverse Engineering.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Reverse Engineering.pdf"; sourceTree = "<group>"; };
+		62DA1BAB2406C343004DE5DB /* Cyber Defense and Forensics.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Cyber Defense and Forensics.pdf"; sourceTree = "<group>"; };
+		62DA1BAD2406C395004DE5DB /* Agricultural Technology Management.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Agricultural Technology Management.pdf"; sourceTree = "<group>"; };
+		62DA1BAF2406C45B004DE5DB /* Cyber Threat Intelligence.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Cyber Threat Intelligence.pdf"; sourceTree = "<group>"; };
+		62DA1BB12406C4B4004DE5DB /* Family Studies & Human Development.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Family Studies & Human Development.pdf"; sourceTree = "<group>"; };
 		62E22FE02401C15300E07244 /* ScolarshipPDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScolarshipPDFViewController.swift; sourceTree = "<group>"; };
 		62E22FE22401C62C00E07244 /* scholarships.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = scholarships.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +127,17 @@
 				6221968024001FEA0039DF9D /* Assets.xcassets */,
 				62219699240035CE0039DF9D /* YUMA_PRIMARY.png */,
 				6221968224001FEA0039DF9D /* LaunchScreen.storyboard */,
+				62DA1BAD2406C395004DE5DB /* Agricultural Technology Management.pdf */,
+				62DA1B972406C186004DE5DB /* Computer Science.pdf */,
+				62DA1BAB2406C343004DE5DB /* Cyber Defense and Forensics.pdf */,
+				62DA1BAF2406C45B004DE5DB /* Cyber Threat Intelligence.pdf */,
+				62DA1B9D2406C198004DE5DB /* Engineering Management.pdf */,
+				62DA1BB12406C4B4004DE5DB /* Family Studies & Human Development.pdf */,
+				62DA1BA12406C1A3004DE5DB /* Food Safety.pdf */,
+				62DA1BA32406C1AA004DE5DB /* Industrial Engineering.pdf */,
+				62DA1BA52406C1B2004DE5DB /* Informatics.pdf */,
+				62DA1BA72406C1B8004DE5DB /* Network Operations.pdf */,
+				62DA1BA92406C1C0004DE5DB /* Reverse Engineering.pdf */,
 				62E22FE22401C62C00E07244 /* scholarships.pdf */,
 				6221968524001FEA0039DF9D /* Info.plist */,
 			);
@@ -201,10 +234,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62DA1B9E2406C198004DE5DB /* Engineering Management.pdf in Resources */,
 				6221968424001FEA0039DF9D /* LaunchScreen.storyboard in Resources */,
+				62DA1BA62406C1B2004DE5DB /* Informatics.pdf in Resources */,
+				62DA1BB22406C4B4004DE5DB /* Family Studies & Human Development.pdf in Resources */,
+				62DA1BA82406C1B8004DE5DB /* Network Operations.pdf in Resources */,
+				62DA1BAC2406C343004DE5DB /* Cyber Defense and Forensics.pdf in Resources */,
+				62DA1BB02406C45C004DE5DB /* Cyber Threat Intelligence.pdf in Resources */,
+				62DA1BA22406C1A3004DE5DB /* Food Safety.pdf in Resources */,
+				62DA1BAE2406C395004DE5DB /* Agricultural Technology Management.pdf in Resources */,
+				62DA1BAA2406C1C0004DE5DB /* Reverse Engineering.pdf in Resources */,
 				6221968124001FEA0039DF9D /* Assets.xcassets in Resources */,
 				6221969A240035CE0039DF9D /* YUMA_PRIMARY.png in Resources */,
 				6221967F24001FE90039DF9D /* Main.storyboard in Resources */,
+				62DA1BA42406C1AA004DE5DB /* Industrial Engineering.pdf in Resources */,
+				62DA1B982406C186004DE5DB /* Computer Science.pdf in Resources */,
 				62E22FE32401C62C00E07244 /* scholarships.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

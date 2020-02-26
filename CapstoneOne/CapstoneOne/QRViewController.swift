@@ -15,6 +15,7 @@ class QRViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate
     var previewLayer:AVCaptureVideoPreviewLayer!
 //    var qrCadeFrameView:UIView?
 
+
     @IBOutlet weak var QRLabel: UILabel!
     
     
@@ -101,7 +102,14 @@ class QRViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate
     
     func found(code: String) {
         print(code)
-        QRLabel.text = code
+//        QRLabel.text = code
+        QRLabel.text = "Howdy in the found code"
+        
+        let alert = UIAlertController(title: "QRAlert", message: "Got to that site?", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: code, style: .default, handler: nil))
+        alert.addAction(UIAlertAction(title: "No", style: .cancel, handler: nil))
+        
+        self.present(alert, animated: true)
     }
     
     override var prefersStatusBarHidden: Bool {

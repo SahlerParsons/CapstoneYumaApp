@@ -7,20 +7,45 @@
 //
 
 import UIKit
+import PDFKit
 
 class IndividualSemesterPlanViewController: UIViewController {
 
     
     @IBOutlet weak var individualSemesterPlanLabel: UILabel!
+   
     
-//    var chosenPlan:String = "Chosen Plan retrieved later"
     
     var chosenPlan:String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        if chosenPlan == "" {
+            chosenPlan = "Agricultural Technology Management"
+        }
+        
     individualSemesterPlanLabel.text = chosenPlan
+        
+        let pdfView = PDFView(frame: self.view.bounds)
+        pdfView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        self.view.addSubview(pdfView)
+        pdfView.autoScales = true
+        
+        let fileURL = Bundle.main.url(forResource: chosenPlan, withExtension: "pdf")
+        pdfView.document = PDFDocument(url: fileURL!)
+        
+//        let alert = UIAlertController(title: "Chosen Plan Alert", message: "hi", preferredStyle: .alert)
+//        alert.addAction(UIAlertAction(title: chosenPlan, style: .default, handler: nil))
+//        alert.addAction(UIAlertAction(title: "No", style: .cancel, handler: nil))
+//        
+//        self.present(alert, animated: true)
+               
+//               let path = URL(fileURLWithPath: Bundle.main.path(forResource: "scholarships", ofType: "pdf")!)
+//
+//               let request = URLRequest(url: path)
+        
+        
         
 
         // Do any additional setup after loading the view.

@@ -33,7 +33,7 @@ class SemesterPlanViewController: UIViewController, UIPickerViewDelegate, UIPick
         
     }
     
-    var pickerDataSource = ["Agricultural Technology Management", "Informatics", "Computer Science", "Cyber Threat Analysis", "Cyber Defense and Forensics", "Food Safety", "Family Studies", "Network Operations", "Reverse Engineering", "Engineering Management", "Industrial Engineering"]
+    var pickerDataSource = ["Agricultural Technology Management", "Informatics", "Computer Science", "Cyber Threat Intelligence", "Cyber Defense and Forensics", "Food Safety", "Family Studies & Human Development", "Network Operations", "Reverse Engineering", "Engineering Management", "Industrial Engineering"]
     
     @IBOutlet weak var courseCataloguePicker: UIPickerView!
     
