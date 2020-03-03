@@ -8,6 +8,141 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Request Information View Controller-->
+        <scene sceneID="ahP-fZ-KDe">
+            <objects>
+                <viewController id="sCH-jL-tdS" customClass="RequestInformationViewController" customModule="CapstoneOne" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Fm-U0-kop">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Phone:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oAX-BO-Fhx">
+                                <rect key="frame" x="16" y="195" width="75" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="First:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QcY-Zi-wS1">
+                                <rect key="frame" x="16" y="103" width="75" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Last:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kwl-a9-SWE">
+                                <rect key="frame" x="16" y="149" width="75" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Wb-S0-4gJ">
+                                <rect key="frame" x="16" y="241" width="75" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mDV-gv-cpx">
+                                <rect key="frame" x="99" y="103" width="260" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7ef-Eg-uxe">
+                                <rect key="frame" x="99" y="149" width="260" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uVe-qx-DD9">
+                                <rect key="frame" x="99" y="195" width="260" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vzC-iT-VTi">
+                                <rect key="frame" x="99" y="241" width="260" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Ou-tV-tS4">
+                                <rect key="frame" x="0.0" y="287" width="375" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nls-ag-LkT">
+                                <rect key="frame" x="16" y="511" width="343" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="Request Information"/>
+                                <connections>
+                                    <action selector="requestButtonClicked:" destination="sCH-jL-tdS" eventType="touchUpInside" id="QtU-Wn-FSk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="myx-Pl-0dj"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dlh-aa-Rba"/>
+                    <connections>
+                        <outlet property="contactMethodPicker" destination="3Ou-tV-tS4" id="el8-5z-AbG"/>
+                        <outlet property="emailTF" destination="vzC-iT-VTi" id="Iic-TX-QAh"/>
+                        <outlet property="firstTF" destination="mDV-gv-cpx" id="irK-lQ-rTD"/>
+                        <outlet property="lastTF" destination="7ef-Eg-uxe" id="56j-UO-OHZ"/>
+                        <outlet property="phoneTF" destination="uVe-qx-DD9" id="6Pz-wM-dAp"/>
+                        <outlet property="requestInformationButton" destination="Nls-ag-LkT" id="htD-HV-efk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CET-Pz-N9X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="877.60000000000002" y="-731.78410794602701"/>
+        </scene>
+        <!--Maps View Controller-->
+        <scene sceneID="JMV-ng-Jn6">
+            <objects>
+                <viewController id="vW7-0p-EQP" customClass="MapsViewController" customModule="CapstoneOne" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="48C-RN-4TB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fcd-MW-SkG">
+                                <rect key="frame" x="17" y="44" width="342" height="302"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NAU-Yuma_campus_map.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="npm-YS-Jcp">
+                                        <rect key="frame" x="8" y="0.0" width="326" height="282"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <viewLayoutGuide key="contentLayoutGuide" id="BZd-XE-lMi"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="VBZ-qR-UY5"/>
+                                <connections>
+                                    <outlet property="delegate" destination="vW7-0p-EQP" id="ixa-jJ-ZBP"/>
+                                </connections>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="From yuma whatever go there then here and look in the thing and have a cookie and find the classroom." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v6t-qP-Ka5">
+                                <rect key="frame" x="17" y="354" width="342" height="162"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="n0d-bw-mWB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dUi-T4-4UL"/>
+                    <connections>
+                        <outlet property="mapImageView" destination="npm-YS-Jcp" id="rh2-at-Ihn"/>
+                        <outlet property="scrollView" destination="fcd-MW-SkG" id="xZK-Cg-4N6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZPY-J7-zhf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1893.5999999999999" y="-894.60269865067471"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -22,68 +157,83 @@
                                 <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="5z9-o2-h3n">
-                                <rect key="frame" x="36.85113835376535" y="111.00000000000011" width="299" height="232"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WkK-tL-6Uc">
-                                        <rect key="frame" x="0.0" y="0.0" width="299" height="49"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                        <state key="normal" title="Course Catalogue">
-                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="isN-sM-MKE" kind="show" id="ocd-Y1-E1b"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbP-Zo-0kX">
-                                        <rect key="frame" x="0.0" y="61" width="299" height="49"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                        <state key="normal" title="QR Scanner">
-                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="s3p-IJ-cTu" kind="show" id="ScY-g1-7kv"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSH-Ro-pAn">
-                                        <rect key="frame" x="0.0" y="122" width="299" height="49"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                        <state key="normal" title="8 Week Semester Plan">
-                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="81r-Mt-fhQ" kind="show" id="cZb-5j-DvA"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qw3-dq-YgA">
-                                        <rect key="frame" x="0.0" y="183" width="299" height="49"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                        <state key="normal" title="Links">
-                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="08F-YX-7z4" kind="show" id="qF1-lc-Z6H"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="WkK-tL-6Uc" secondAttribute="trailing" id="4UC-Ra-gcJ"/>
-                                    <constraint firstItem="WkK-tL-6Uc" firstAttribute="top" secondItem="5z9-o2-h3n" secondAttribute="top" constant="20" id="G1z-RN-Fyx"/>
-                                    <constraint firstItem="WkK-tL-6Uc" firstAttribute="leading" secondItem="5z9-o2-h3n" secondAttribute="leading" id="daA-he-KgN"/>
-                                </constraints>
-                            </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="YUMA_PRIMARY.png" translatesAutoresizingMaskIntoConstraints="NO" id="FDq-xQ-PE1">
                                 <rect key="frame" x="36" y="571" width="299" height="76"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
+                            <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WkK-tL-6Uc">
+                                <rect key="frame" x="38" y="199" width="299" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="Course Catalogue">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="isN-sM-MKE" kind="show" id="ocd-Y1-E1b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbP-Zo-0kX">
+                                <rect key="frame" x="34" y="370" width="299" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="QR Scanner">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="s3p-IJ-cTu" kind="show" id="ScY-g1-7kv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qw3-dq-YgA">
+                                <rect key="frame" x="35" y="313" width="299" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="Links">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="08F-YX-7z4" kind="show" id="qF1-lc-Z6H"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSH-Ro-pAn">
+                                <rect key="frame" x="36" y="256" width="299" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="8 Week Semester Plan">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="81r-Mt-fhQ" kind="show" id="cZb-5j-DvA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="7jK-nT-Cnn">
+                                <rect key="frame" x="36" y="427" width="297" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="Contact Me With More Information!">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="sCH-jL-tdS" kind="show" id="kbh-bH-lnU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jMN-OY-Waa">
+                                <rect key="frame" x="34" y="142" width="299" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="Campus Maps">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vW7-0p-EQP" kind="show" id="TGk-ue-2Bo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="zra-wQ-Khd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Jfp-85-hOc"/>
                             <constraint firstItem="zra-wQ-Khd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mHS-8z-vln"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zra-wQ-Khd" secondAttribute="trailing" id="rHc-cB-uIp"/>
-                            <constraint firstItem="5z9-o2-h3n" firstAttribute="top" secondItem="zra-wQ-Khd" secondAttribute="bottom" constant="40" id="vjH-fx-UPI"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -139,7 +289,7 @@
                                 <rect key="frame" x="16" y="363" width="343" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <state key="normal" title="Link 4"/>
+                                <state key="normal" title="UA Bridge"/>
                                 <connections>
                                     <action selector="link4Pressed:" destination="08F-YX-7z4" eventType="touchUpInside" id="FSs-NL-942"/>
                                 </connections>
@@ -148,6 +298,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Ohe-J1-pFD"/>
                     </view>
+                    <navigationItem key="navigationItem" id="OC9-sR-lbg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KCs-4k-xUQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -198,6 +349,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="nsF-zi-9rf"/>
                     </view>
+                    <navigationItem key="navigationItem" id="XUU-aN-M4e"/>
                     <connections>
                         <outlet property="pdfView" destination="nBi-pQ-d7X" id="Sei-i8-tcu"/>
                     </connections>
@@ -243,6 +395,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="nyg-a0-fnt"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Q2D-WJ-aUZ"/>
                     <connections>
                         <outlet property="individualSemesterPlanLabel" destination="Onj-8v-ZGh" id="7JP-Ws-hj4"/>
                     </connections>
@@ -285,6 +438,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="pta-mj-1Z0"/>
                     </view>
+                    <navigationItem key="navigationItem" id="zTh-VP-os6"/>
                     <connections>
                         <outlet property="courseCataloguePicker" destination="Utt-0n-Cfe" id="uXI-US-ucU"/>
                         <outlet property="pickerChoiceLabel" destination="5na-pX-lDK" id="XUH-Mi-spN"/>
@@ -304,6 +458,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="EiB-vq-m3J"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ibK-nY-GKg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="93w-8j-1ug" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -311,6 +466,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="NAU-Yuma_campus_map.jpg" width="882" height="682"/>
         <image name="YUMA_PRIMARY.png" width="2795" height="640"/>
     </resources>
 </document>
