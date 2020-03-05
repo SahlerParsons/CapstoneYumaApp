@@ -15,7 +15,6 @@
 		6221968F24001FEA0039DF9D /* CapstoneOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6221968E24001FEA0039DF9D /* CapstoneOneTests.swift */; };
 		6221969A240035CE0039DF9D /* YUMA_PRIMARY.png in Resources */ = {isa = PBXBuildFile; fileRef = 62219699240035CE0039DF9D /* YUMA_PRIMARY.png */; };
 		622196AC240058CF0039DF9D /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622196AB240058CF0039DF9D /* QRViewController.swift */; };
-		622196AE240088DA0039DF9D /* CourseCatalogueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622196AD240088DA0039DF9D /* CourseCatalogueViewController.swift */; };
 		622196B224008A7B0039DF9D /* SemesterPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622196B124008A7B0039DF9D /* SemesterPlanViewController.swift */; };
 		622196B424008ADF0039DF9D /* LinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622196B324008ADF0039DF9D /* LinksViewController.swift */; };
 		62ACA9FD24059A7700379714 /* IndividualSemesterPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62ACA9FC24059A7700379714 /* IndividualSemesterPlanViewController.swift */; };
@@ -60,7 +59,6 @@
 		6221969024001FEA0039DF9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62219699240035CE0039DF9D /* YUMA_PRIMARY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = YUMA_PRIMARY.png; path = ../../YUMA_PRIMARY.png; sourceTree = "<group>"; };
 		622196AB240058CF0039DF9D /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
-		622196AD240088DA0039DF9D /* CourseCatalogueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCatalogueViewController.swift; sourceTree = "<group>"; };
 		622196B124008A7B0039DF9D /* SemesterPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemesterPlanViewController.swift; sourceTree = "<group>"; };
 		622196B324008ADF0039DF9D /* LinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksViewController.swift; sourceTree = "<group>"; };
 		62ACA9FC24059A7700379714 /* IndividualSemesterPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualSemesterPlanViewController.swift; sourceTree = "<group>"; };
@@ -125,7 +123,6 @@
 				6221967924001FE90039DF9D /* AppDelegate.swift */,
 				6221967B24001FE90039DF9D /* ViewController.swift */,
 				622196AB240058CF0039DF9D /* QRViewController.swift */,
-				622196AD240088DA0039DF9D /* CourseCatalogueViewController.swift */,
 				622196B124008A7B0039DF9D /* SemesterPlanViewController.swift */,
 				622196B324008ADF0039DF9D /* LinksViewController.swift */,
 				62E22FE02401C15300E07244 /* ScolarshipPDFViewController.swift */,
@@ -286,7 +283,6 @@
 				6221967A24001FE90039DF9D /* AppDelegate.swift in Sources */,
 				622196AC240058CF0039DF9D /* QRViewController.swift in Sources */,
 				622196B424008ADF0039DF9D /* LinksViewController.swift in Sources */,
-				622196AE240088DA0039DF9D /* CourseCatalogueViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
