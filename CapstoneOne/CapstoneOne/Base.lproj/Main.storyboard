@@ -107,9 +107,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fcd-MW-SkG">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fcd-MW-SkG">
                                 <rect key="frame" x="17" y="44" width="342" height="302"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NAU-Yuma_campus_map.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="npm-YS-Jcp">
                                         <rect key="frame" x="8" y="0.0" width="326" height="282"/>
@@ -122,15 +121,17 @@
                                     <outlet property="delegate" destination="vW7-0p-EQP" id="ixa-jJ-ZBP"/>
                                 </connections>
                             </scrollView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="From yuma whatever go there then here and look in the thing and have a cookie and find the classroom." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v6t-qP-Ka5">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="From yuma whatever go there then here and look in the thing and have a cookie and find the classroom." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v6t-qP-Ka5">
                                 <rect key="frame" x="17" y="354" width="342" height="162"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="v6t-qP-Ka5" firstAttribute="top" secondItem="fcd-MW-SkG" secondAttribute="bottom" constant="20" id="e3V-sT-85M"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="n0d-bw-mWB"/>
                     </view>
                     <navigationItem key="navigationItem" id="dUi-T4-4UL"/>
@@ -152,30 +153,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="University Of Arizona - Yuma" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zra-wQ-Khd">
-                                <rect key="frame" x="0.0" y="64" width="375" height="30"/>
+                                <rect key="frame" x="0.0" y="100" width="375" height="30"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
                                 <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="YUMA_PRIMARY.png" translatesAutoresizingMaskIntoConstraints="NO" id="FDq-xQ-PE1">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YUMA_PRIMARY.png" translatesAutoresizingMaskIntoConstraints="NO" id="FDq-xQ-PE1">
                                 <rect key="frame" x="36" y="571" width="299" height="76"/>
-                                <autoresizingMask key="autoresizingMask"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="uoT-uN-Dgo"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WkK-tL-6Uc">
-                                <rect key="frame" x="38" y="199" width="299" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <state key="normal" title="Course Catalogue">
-                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="isN-sM-MKE" kind="show" id="ocd-Y1-E1b"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbP-Zo-0kX">
-                                <rect key="frame" x="34" y="370" width="299" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbP-Zo-0kX">
+                                <rect key="frame" x="36" y="377" width="299" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="L3b-5B-YOf"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <state key="normal" title="QR Scanner">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -184,9 +178,11 @@
                                     <segue destination="s3p-IJ-cTu" kind="show" id="ScY-g1-7kv"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qw3-dq-YgA">
-                                <rect key="frame" x="35" y="313" width="299" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qw3-dq-YgA">
+                                <rect key="frame" x="37" y="320" width="299" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="Ntj-q3-qbO"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <state key="normal" title="Links">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -195,20 +191,8 @@
                                     <segue destination="08F-YX-7z4" kind="show" id="qF1-lc-Z6H"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSH-Ro-pAn">
-                                <rect key="frame" x="36" y="256" width="299" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <state key="normal" title="8 Week Semester Plan">
-                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="81r-Mt-fhQ" kind="show" id="cZb-5j-DvA"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="7jK-nT-Cnn">
-                                <rect key="frame" x="36" y="427" width="297" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="7jK-nT-Cnn">
+                                <rect key="frame" x="39" y="465" width="297" height="49"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <state key="normal" title="Contact Me With More Information!">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -217,9 +201,11 @@
                                     <segue destination="sCH-jL-tdS" kind="show" id="kbh-bH-lnU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jMN-OY-Waa">
-                                <rect key="frame" x="34" y="142" width="299" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jMN-OY-Waa">
+                                <rect key="frame" x="36" y="163" width="299" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="zJa-TT-3bZ"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <state key="normal" title="Campus Maps">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -228,12 +214,42 @@
                                     <segue destination="vW7-0p-EQP" kind="show" id="TGk-ue-2Bo"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSH-Ro-pAn">
+                                <rect key="frame" x="37" y="220" width="299" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="nzh-ta-Ppo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="8 Week Semester Plan">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="81r-Mt-fhQ" kind="show" id="cZb-5j-DvA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="zra-wQ-Khd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Jfp-85-hOc"/>
-                            <constraint firstItem="zra-wQ-Khd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mHS-8z-vln"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zra-wQ-Khd" secondAttribute="trailing" id="rHc-cB-uIp"/>
+                            <constraint firstItem="jMN-OY-Waa" firstAttribute="top" secondItem="zra-wQ-Khd" secondAttribute="bottom" constant="33" id="1IX-Ca-W1v"/>
+                            <constraint firstItem="FDq-xQ-PE1" firstAttribute="top" secondItem="7jK-nT-Cnn" secondAttribute="bottom" constant="57" id="4yg-Je-lT2"/>
+                            <constraint firstItem="tbP-Zo-0kX" firstAttribute="top" secondItem="Qw3-dq-YgA" secondAttribute="bottom" constant="8" id="Cfh-Me-9l9"/>
+                            <constraint firstItem="7jK-nT-Cnn" firstAttribute="top" secondItem="tbP-Zo-0kX" secondAttribute="bottom" constant="39" id="DB8-pg-AkO"/>
+                            <constraint firstItem="zra-wQ-Khd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Eux-OW-LTX"/>
+                            <constraint firstItem="Qw3-dq-YgA" firstAttribute="top" secondItem="rSH-Ro-pAn" secondAttribute="bottom" constant="51" id="IYd-aL-dTE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="FDq-xQ-PE1" secondAttribute="bottom" constant="20" id="Jts-ot-nOd"/>
+                            <constraint firstItem="zra-wQ-Khd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="56" id="K7V-RL-3Uu"/>
+                            <constraint firstItem="zra-wQ-Khd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TQ1-Ae-ObU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jMN-OY-Waa" secondAttribute="trailing" constant="40" id="VcD-kB-Njy"/>
+                            <constraint firstItem="jMN-OY-Waa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="Zeg-6d-wrw"/>
+                            <constraint firstItem="zra-wQ-Khd" firstAttribute="centerX" secondItem="rSH-Ro-pAn" secondAttribute="centerX" constant="1" id="a2Y-2n-vy6"/>
+                            <constraint firstItem="jMN-OY-Waa" firstAttribute="trailing" secondItem="tbP-Zo-0kX" secondAttribute="trailing" id="bFJ-C4-2rm"/>
+                            <constraint firstItem="Qw3-dq-YgA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="37" id="h34-Fi-Tye"/>
+                            <constraint firstItem="jMN-OY-Waa" firstAttribute="leading" secondItem="tbP-Zo-0kX" secondAttribute="leading" id="hzQ-uT-I5x"/>
+                            <constraint firstItem="tbP-Zo-0kX" firstAttribute="trailing" secondItem="FDq-xQ-PE1" secondAttribute="trailing" id="rFl-lY-0J8"/>
+                            <constraint firstItem="7jK-nT-Cnn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="39" id="swn-Bl-sox"/>
+                            <constraint firstItem="tbP-Zo-0kX" firstAttribute="leading" secondItem="FDq-xQ-PE1" secondAttribute="leading" id="tCY-14-kL7"/>
+                            <constraint firstItem="rSH-Ro-pAn" firstAttribute="centerX" secondItem="7jK-nT-Cnn" secondAttribute="centerX" constant="-1" id="v70-Nm-qvR"/>
+                            <constraint firstItem="Qw3-dq-YgA" firstAttribute="trailing" secondItem="7jK-nT-Cnn" secondAttribute="trailing" id="weh-W2-HDR"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -447,22 +463,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zY8-hI-tVS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="116" y="897.30134932533736"/>
-        </scene>
-        <!--Course Catalogue View Controller-->
-        <scene sceneID="cjO-hC-hbM">
-            <objects>
-                <viewController id="isN-sM-MKE" customClass="CourseCatalogueViewController" customModule="CapstoneOne" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="iSq-JE-LK9">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="EiB-vq-m3J"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="ibK-nY-GKg"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="93w-8j-1ug" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1887" y="58"/>
         </scene>
     </scenes>
     <resources>
