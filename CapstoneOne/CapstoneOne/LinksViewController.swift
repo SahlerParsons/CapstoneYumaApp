@@ -49,13 +49,13 @@ class LinksViewController: UIViewController {
                                   options: [:], completionHandler: nil)
     }
     
-    @IBAction func link3Pressed(_ sender: Any) {
-        UIApplication.shared.open(URL(string: "https://d2l.arizona.edu")! as URL,
-                                  options: [:], completionHandler: nil)
-    }
+//    @IBAction func link3Pressed(_ sender: Any) {
+//        UIApplication.shared.open(URL(string: "https://d2l.arizona.edu")! as URL,
+//                                  options: [:], completionHandler: nil)
+//    }
     
     @IBAction func link4Pressed(_ sender: Any) {
-        UIApplication.shared.open(URL(string: "https://d2l.arizona.edu")! as URL,
+        UIApplication.shared.open(URL(string: "https://admissions.arizona.edu/how-to-apply/transfer/ua-bridge")! as URL,
                                   options: [:], completionHandler: nil)
     }
     
