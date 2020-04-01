@@ -29,11 +29,9 @@
 		62DA1BAE2406C395004DE5DB /* Agricultural Technology Management.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 62DA1BAD2406C395004DE5DB /* Agricultural Technology Management.pdf */; };
 		62DA1BB02406C45C004DE5DB /* Cyber Threat Intelligence.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 62DA1BAF2406C45B004DE5DB /* Cyber Threat Intelligence.pdf */; };
 		62DA1BB22406C4B4004DE5DB /* Family Studies & Human Development.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 62DA1BB12406C4B4004DE5DB /* Family Studies & Human Development.pdf */; };
-		62DA1BBC24070BCD004DE5DB /* RequestInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DA1BBB24070BCD004DE5DB /* RequestInformationViewController.swift */; };
 		62DA1BC2240751AC004DE5DB /* NAU-Yuma_campus_map.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62DA1BC1240751AB004DE5DB /* NAU-Yuma_campus_map.jpg */; };
 		62DA1BD0240DEEDF004DE5DB /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DA1BCF240DEEDF004DE5DB /* MapsViewController.swift */; };
 		62DA1BD82417D434004DE5DB /* UAYuma.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62DA1BD72417D434004DE5DB /* UAYuma.jpg */; };
-		62DA1BE22417E27D004DE5DB /* HamburgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DA1BE12417E27D004DE5DB /* HamburgerViewController.swift */; };
 		62DA1BE6241AAA8C004DE5DB /* SanLuisMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DA1BE5241AAA8C004DE5DB /* SanLuisMapViewController.swift */; };
 		62DA1BEA2422CB53004DE5DB /* Intelligence Studies.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 62DA1BE92422CB53004DE5DB /* Intelligence Studies.pdf */; };
 		62E22FE12401C15300E07244 /* ScolarshipPDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E22FE02401C15300E07244 /* ScolarshipPDFViewController.swift */; };
@@ -77,11 +75,9 @@
 		62DA1BAD2406C395004DE5DB /* Agricultural Technology Management.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Agricultural Technology Management.pdf"; sourceTree = "<group>"; };
 		62DA1BAF2406C45B004DE5DB /* Cyber Threat Intelligence.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Cyber Threat Intelligence.pdf"; sourceTree = "<group>"; };
 		62DA1BB12406C4B4004DE5DB /* Family Studies & Human Development.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Family Studies & Human Development.pdf"; sourceTree = "<group>"; };
-		62DA1BBB24070BCD004DE5DB /* RequestInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestInformationViewController.swift; sourceTree = "<group>"; };
 		62DA1BC1240751AB004DE5DB /* NAU-Yuma_campus_map.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "NAU-Yuma_campus_map.jpg"; sourceTree = "<group>"; };
 		62DA1BCF240DEEDF004DE5DB /* MapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
 		62DA1BD72417D434004DE5DB /* UAYuma.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UAYuma.jpg; sourceTree = "<group>"; };
-		62DA1BE12417E27D004DE5DB /* HamburgerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgerViewController.swift; sourceTree = "<group>"; };
 		62DA1BE5241AAA8C004DE5DB /* SanLuisMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanLuisMapViewController.swift; sourceTree = "<group>"; };
 		62DA1BE92422CB53004DE5DB /* Intelligence Studies.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Intelligence Studies.pdf"; sourceTree = "<group>"; };
 		62E22FE02401C15300E07244 /* ScolarshipPDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScolarshipPDFViewController.swift; sourceTree = "<group>"; };
@@ -134,11 +130,9 @@
 				622196B324008ADF0039DF9D /* LinksViewController.swift */,
 				62E22FE02401C15300E07244 /* ScolarshipPDFViewController.swift */,
 				62ACA9FC24059A7700379714 /* IndividualSemesterPlanViewController.swift */,
-				62DA1BBB24070BCD004DE5DB /* RequestInformationViewController.swift */,
 				622EEDC924292B5600D0345C /* NewHomeViewController.swift */,
 				6221967D24001FE90039DF9D /* Main.storyboard */,
 				62DA1BE5241AAA8C004DE5DB /* SanLuisMapViewController.swift */,
-				62DA1BE12417E27D004DE5DB /* HamburgerViewController.swift */,
 				62DA1BC1240751AB004DE5DB /* NAU-Yuma_campus_map.jpg */,
 				62219699240035CE0039DF9D /* YUMA_PRIMARY.png */,
 				622EEDCB242997A900D0345C /* Assets.xcassets */,
@@ -290,13 +284,11 @@
 			files = (
 				622EEDCA24292B5600D0345C /* NewHomeViewController.swift in Sources */,
 				62ACA9FD24059A7700379714 /* IndividualSemesterPlanViewController.swift in Sources */,
-				62DA1BBC24070BCD004DE5DB /* RequestInformationViewController.swift in Sources */,
 				62E22FE12401C15300E07244 /* ScolarshipPDFViewController.swift in Sources */,
 				6221967C24001FE90039DF9D /* ViewController.swift in Sources */,
 				622196B224008A7B0039DF9D /* SemesterPlanViewController.swift in Sources */,
 				62DA1BD0240DEEDF004DE5DB /* MapsViewController.swift in Sources */,
 				6221967A24001FE90039DF9D /* AppDelegate.swift in Sources */,
-				62DA1BE22417E27D004DE5DB /* HamburgerViewController.swift in Sources */,
 				62DA1BE6241AAA8C004DE5DB /* SanLuisMapViewController.swift in Sources */,
 				622196B424008ADF0039DF9D /* LinksViewController.swift in Sources */,
 			);

@@ -25,6 +25,15 @@ class ScolarshipPDFViewController: UIViewController, UIWebViewDelegate {
         let request = URLRequest(url: path)
         pdfView.loadRequest(request)
         
+//        let backgroundImage = UIImage.init(named: "UAYuma")
+//               let backgroundImageView = UIImageView.init(frame: self.view.frame)
+//
+//               backgroundImageView.image = backgroundImage
+//               backgroundImageView.contentMode = .scaleAspectFill
+//               backgroundImageView.alpha = 1.0
+//
+//               self.view.insertSubview(backgroundImageView, at: 0)
+        
         // Do any additional setup after loading the view.
     }
     
